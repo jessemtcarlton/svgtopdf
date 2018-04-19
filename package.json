@@ -1,0 +1,30 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "convert svg to pdf",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "brfs": "^1.6.1",
+    "browserify": "^15.2.0",
+    "coffee-script": "^1.12.7",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "^2.2.4",
+    "express": "^4.16.3",
+    "npm": "^5.8.0",
+    "pdfkit": "https://github.com/devongovett/pdfkit/tarball/master",
+    "request": "^2.85.0",
+    "simple-object-query": "^1.6.1",
+    "svg-to-pdfkit": "github:jessemtcarlton/SVG-to-PDFKit",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Jesse Carlton",
+  "license": "ISC"
+}
