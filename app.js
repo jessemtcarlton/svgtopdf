@@ -193,8 +193,6 @@ function createPdf(svg, stream) {
 	doc.registerFont('Atlanta-Italic', 'fonts/Atlanta-BookOblique.ttf');
 	doc.registerFont('Atlanta-Bold', 'fonts/Atlanta-Demi.ttf');
 	doc.registerFont('Atlanta-BoldItalic', 'fonts/Atlanta-DemiOblique.ttf');
-
-	console.log(doc._registeredFonts);
 	if (options.useCSS) {
 		let hiddenDiv = document.getElementById('hidden-div');
 		hiddenDiv.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">' + svg + '</svg>';
